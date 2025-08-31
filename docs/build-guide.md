@@ -8,8 +8,7 @@
 - [Steps](#steps)
 - [Firmware](#firmware)
 - [Troubleshooting](#troubleshooting)
-- [Links](#links)
-- [Footnotes](#footnotes)
+- [References](#references)
 
 # Introduction
 
@@ -27,6 +26,4 @@ TODO: Add instruction based on Sofle V2.
 
 # Troubleshooting
 
-# Links
-
-# Footnotes
+# References
