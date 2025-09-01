@@ -22,3 +22,4 @@ rescue-backup/
 *.tsv
 bom/
 ~neosofle.kicad_sch.lck
+pcb/#auto_saved_files#
