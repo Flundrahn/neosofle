@@ -1070,7 +1070,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SK6812MINI-E_1"
+		(symbol "NeoSofle:SK6812MINI-E"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1093,568 +1093,7 @@
 					)
 				)
 			)
-			(property "Footprint" "neosofle:SK6812MINI-E"
-				(at 0 -15.621 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-				(at 0 -17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 -14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6812MINI-E_1_0_0"
-				(text "RGB"
-					(at 1.905 -4.445 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "SK6812MINI-E_1_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 -2.794) (xy 1.397 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 -3.81) (xy 1.397 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.778) (xy 0.889 -2.794) (xy 0.889 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -2.794) (xy 0.889 -3.81) (xy 0.889 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -1.27) (xy 3.302 -3.81) (xy 3.302 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 -1.778) (xy 2.286 -1.778) (xy 3.302 -3.81) (xy 4.318 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 -3.81) (xy 2.286 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SK6812MINI-E_1_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_DIP_x01"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x01_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_0_1"
-				(rectangle
-					(start -3.81 2.54)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "neosofle:SK6812MINI-E"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED1"
-				(at 12.192 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SK6812MINI-E"
-				(at 12.7 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "neosofle:SK6812MINI-E"
+			(property "Footprint" "NeoSofle:SK6812MINI-E"
 				(at 0 -15.621 0)
 				(effects
 					(font
@@ -1884,7 +1323,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "neosofle:nice_nano"
+		(symbol "NeoSofle:nice_nano"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -1904,7 +1343,7 @@
 					)
 				)
 			)
-			(property "Footprint" "neosofle:nice_nano_Reversible"
+			(property "Footprint" "NeoSofle:nice_nano_Reversible"
 				(at 0 -27.178 0)
 				(effects
 					(font
@@ -2465,6 +1904,567 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SK6812MINI-E_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED1"
+				(at 12.192 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at 12.7 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "NeoSofle:SK6812MINI-E"
+				(at 0 -15.621 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+				(at 0 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-E_1_0_0"
+				(text "RGB"
+					(at 1.905 -4.445 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 -2.794) (xy 1.397 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 -3.81) (xy 1.397 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.778) (xy 0.889 -2.794) (xy 0.889 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -2.794) (xy 0.889 -3.81) (xy 0.889 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -1.27) (xy 3.302 -3.81) (xy 3.302 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -1.778) (xy 2.286 -1.778) (xy 3.302 -3.81) (xy 4.318 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -3.81) (xy 2.286 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_DIP_x01"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x01"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x01_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x01_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x01_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -4985,7 +4985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243_Reversible"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
 			(at 58.42 133.35 0)
 			(effects
 				(font
@@ -5035,10 +5035,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b711516-4516-4383-894b-cd90e4f589f2")
 		(property "Reference" "D19"
-			(at 185.42 124.4599 90)
+			(at 185.166 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +5055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 187.325 125.73 0)
 			(effects
 				(font
@@ -5108,7 +5107,7 @@
 			(uuid "20007fc2-1b16-44d2-985b-ce9bafee6bd6")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D19")
 					(unit 1)
@@ -5145,7 +5144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 236.855 92.71 0)
 			(effects
 				(font
@@ -5197,7 +5196,7 @@
 			(uuid "8e556de8-ab03-4944-a182-29fabfab27d6")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D10")
 					(unit 1)
@@ -5264,7 +5263,7 @@
 			(uuid "8c8b66dd-55e3-4de9-af34-cb4a1396edba")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "#PWR08")
 					(unit 1)
@@ -5274,7 +5273,7 @@
 	)
 	(symbol
 		(lib_name "SK6812MINI-E_1")
-		(lib_id "neosofle:SK6812MINI-E")
+		(lib_id "NeoSofle:SK6812MINI-E")
 		(at 163.83 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5299,7 +5298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:LED_SK6812MINI-E"
+		(property "Footprint" "NeoSofle:LED_SK6812MINI-E"
 			(at 148.209 30.48 0)
 			(effects
 				(font
@@ -5375,7 +5374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 260.35 132.08 0)
 			(effects
 				(font
@@ -5409,7 +5408,7 @@
 			(uuid "d6f5fb02-1cd0-4441-99de-8bc4cb8ab1d0")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW30")
 					(unit 1)
@@ -5446,7 +5445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 187.325 76.2 0)
 			(effects
 				(font
@@ -5498,7 +5497,7 @@
 			(uuid "61f6be5a-bad8-424e-88bb-98cad6d9433b")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D1")
 					(unit 1)
@@ -5533,7 +5532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 210.82 115.57 0)
 			(effects
 				(font
@@ -5567,7 +5566,7 @@
 			(uuid "55323082-20df-4e03-a777-af99cbc28356")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW21")
 					(unit 1)
@@ -5602,7 +5601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 194.31 82.55 0)
 			(effects
 				(font
@@ -5636,7 +5635,7 @@
 			(uuid "54dbbed5-0418-4f17-862d-5a306d01b668")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW8")
 					(unit 1)
@@ -5671,7 +5670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 210.82 99.06 0)
 			(effects
 				(font
@@ -5705,7 +5704,7 @@
 			(uuid "585bc243-52ff-456b-aa48-e25798cda5cc")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW15")
 					(unit 1)
@@ -5771,7 +5770,7 @@
 			(uuid "85bc1d88-dc78-4467-9370-f85bf08ce6b3")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "#PWR06")
 					(unit 1)
@@ -5808,7 +5807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 269.875 76.2 0)
 			(effects
 				(font
@@ -5860,7 +5859,7 @@
 			(uuid "47799646-2bab-4584-aa22-caae447e967a")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D6")
 					(unit 1)
@@ -5926,7 +5925,7 @@
 			(uuid "8d0f429c-dd0f-4a03-a1fd-a871a3d32a50")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "#PWR012")
 					(unit 1)
@@ -5961,7 +5960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 243.84 115.57 0)
 			(effects
 				(font
@@ -5995,7 +5994,7 @@
 			(uuid "5404b539-e24f-48d3-a2ae-1add18d99d85")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW23")
 					(unit 1)
@@ -6030,7 +6029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 260.35 82.55 0)
 			(effects
 				(font
@@ -6064,7 +6063,7 @@
 			(uuid "a44304ee-8a1d-4a9a-996b-121a984b3f5f")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW12")
 					(unit 1)
@@ -6101,7 +6100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 269.875 148.59 0)
 			(effects
 				(font
@@ -6153,7 +6152,7 @@
 			(uuid "17a7b417-b1a6-4529-94c5-c7ede4c2332b")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D30")
 					(unit 1)
@@ -6190,7 +6189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 253.365 148.59 0)
 			(effects
 				(font
@@ -6242,7 +6241,7 @@
 			(uuid "7933818a-b373-4643-854a-ea44a0b28f6f")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D29")
 					(unit 1)
@@ -6277,7 +6276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 177.8 66.04 0)
 			(effects
 				(font
@@ -6311,7 +6310,7 @@
 			(uuid "c3272a88-2fb4-4b9e-991d-255836cc8d67")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW1")
 					(unit 1)
@@ -6394,10 +6393,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "43f4c61a-bf70-47a7-9a59-7bd50361f442")
 		(property "Reference" "D13"
-			(at 185.42 107.9499 90)
+			(at 185.166 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +6413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 187.325 109.22 0)
 			(effects
 				(font
@@ -6467,7 +6465,7 @@
 			(uuid "2d74a74b-0cbb-49b1-93af-39a54d44a15f")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D13")
 					(unit 1)
@@ -6502,7 +6500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 177.8 82.55 0)
 			(effects
 				(font
@@ -6536,7 +6534,7 @@
 			(uuid "749c2862-3561-4d7c-bc98-3352bf5210ef")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW7")
 					(unit 1)
@@ -6571,7 +6569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 260.35 99.06 0)
 			(effects
 				(font
@@ -6605,7 +6603,7 @@
 			(uuid "fde497d0-689e-4870-af3a-b3822769bf16")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW18")
 					(unit 1)
@@ -6621,10 +6619,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5369c44b-c201-4a98-b222-4800f8fd2279")
 		(property "Reference" "D23"
-			(at 251.46 124.4599 90)
+			(at 251.206 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 253.365 125.73 0)
 			(effects
 				(font
@@ -6694,7 +6691,7 @@
 			(uuid "a2c1f3f5-c0fe-410f-b901-5f17c38225f6")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D23")
 					(unit 1)
@@ -6729,7 +6726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 194.31 99.06 0)
 			(effects
 				(font
@@ -6763,7 +6760,7 @@
 			(uuid "8d40b650-f055-4715-b1ae-20e60b32b6ed")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW14")
 					(unit 1)
@@ -6798,7 +6795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 210.82 66.04 0)
 			(effects
 				(font
@@ -6832,7 +6829,7 @@
 			(uuid "3698b482-9f9c-4ef2-b913-a82f5343855a")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW3")
 					(unit 1)
@@ -6867,7 +6864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 227.33 82.55 0)
 			(effects
 				(font
@@ -6901,7 +6898,7 @@
 			(uuid "76b960c0-f7dd-4efa-9cfe-208704134183")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW10")
 					(unit 1)
@@ -6938,7 +6935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 253.365 92.71 0)
 			(effects
 				(font
@@ -6990,7 +6987,7 @@
 			(uuid "cdf7910d-b73b-4b76-a164-175e6239251e")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D11")
 					(unit 1)
@@ -7023,7 +7020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_Reversible"
+		(property "Footprint" "NeoSofle:RotaryEncoder_Bourns_PEC11L-Switch_Vertical15mm"
 			(at 161.29 138.176 0)
 			(effects
 				(font
@@ -7032,7 +7029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/PDFs/pec11l.pdf"
 			(at 165.1 135.636 0)
 			(effects
 				(font
@@ -7101,7 +7098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 243.84 99.06 0)
 			(effects
 				(font
@@ -7135,7 +7132,7 @@
 			(uuid "6feb9c0a-70ab-4634-9aad-529f90831a3b")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW17")
 					(unit 1)
@@ -7172,7 +7169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 253.365 76.2 0)
 			(effects
 				(font
@@ -7224,7 +7221,7 @@
 			(uuid "3b109a9a-ad15-499c-aef3-f1985e21ba7f")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D5")
 					(unit 1)
@@ -7240,10 +7237,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5fdfdaf4-5d92-469b-8899-ce8b2889c2bf")
 		(property "Reference" "D20"
-			(at 201.93 124.4599 90)
+			(at 201.676 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +7257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 203.835 125.73 0)
 			(effects
 				(font
@@ -7313,7 +7309,7 @@
 			(uuid "453657c7-daba-4b10-804b-1a2c5d6b34b1")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D20")
 					(unit 1)
@@ -7348,7 +7344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 260.35 115.57 0)
 			(effects
 				(font
@@ -7382,7 +7378,7 @@
 			(uuid "1433725d-4405-4168-b651-9679ef764e87")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW24")
 					(unit 1)
@@ -7419,7 +7415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 236.855 76.2 0)
 			(effects
 				(font
@@ -7471,7 +7467,7 @@
 			(uuid "316672a0-fce0-43fa-b7a3-83061d1170f7")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D4")
 					(unit 1)
@@ -7537,7 +7533,7 @@
 			(uuid "d7621968-4ad1-4540-a56f-2ab2df0e8ab4")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "#PWR011")
 					(unit 1)
@@ -7572,7 +7568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 177.8 115.57 0)
 			(effects
 				(font
@@ -7606,7 +7602,7 @@
 			(uuid "7416d762-ac8d-4f82-b7d6-1e355c6c0d3c")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW19")
 					(unit 1)
@@ -7622,10 +7618,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6bb02d7a-fd3a-4335-94c7-3b4da3d5a6b4")
 		(property "Reference" "D15"
-			(at 218.44 107.9499 90)
+			(at 218.186 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,7 +7638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 220.345 109.22 0)
 			(effects
 				(font
@@ -7695,7 +7690,7 @@
 			(uuid "3d4b9e12-7ae0-4f58-b5cf-2228b1bce85d")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D15")
 					(unit 1)
@@ -7711,10 +7706,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6bdcf441-987a-419b-9f56-efb950d0c150")
 		(property "Reference" "D22"
-			(at 234.95 124.4599 90)
+			(at 234.696 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,7 +7726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 236.855 125.73 0)
 			(effects
 				(font
@@ -7784,7 +7778,7 @@
 			(uuid "4e84e96a-a665-4e11-ac1c-ad0c27430408")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D22")
 					(unit 1)
@@ -7819,7 +7813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 227.33 99.06 0)
 			(effects
 				(font
@@ -7853,7 +7847,7 @@
 			(uuid "cd7f7ca0-5b93-45ef-8bca-6d04a96db5ee")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW16")
 					(unit 1)
@@ -7869,10 +7863,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "729a0370-678d-4367-9265-f58bc12abbb4")
 		(property "Reference" "D16"
-			(at 234.95 107.9499 90)
+			(at 234.696 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +7883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 236.855 109.22 0)
 			(effects
 				(font
@@ -7942,7 +7935,7 @@
 			(uuid "8c06f399-14af-4d50-b1ad-82cc56a787f0")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D16")
 					(unit 1)
@@ -7976,7 +7969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 227.33 132.08 0)
 			(effects
 				(font
@@ -8010,7 +8003,7 @@
 			(uuid "6f6235e3-883a-459f-af7f-f05e21e717e4")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW28")
 					(unit 1)
@@ -8026,10 +8019,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "798270e6-b54e-46b2-89f2-a00dcf50f4d5")
 		(property "Reference" "D17"
-			(at 251.46 107.9499 90)
+			(at 251.206 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +8039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 253.365 109.22 0)
 			(effects
 				(font
@@ -8099,7 +8091,7 @@
 			(uuid "fcac3556-632b-41ac-b56d-f638822cd6c8")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D17")
 					(unit 1)
@@ -8136,7 +8128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 203.835 92.71 0)
 			(effects
 				(font
@@ -8188,7 +8180,7 @@
 			(uuid "d4567b2a-420b-492a-8703-81d2154fef78")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D8")
 					(unit 1)
@@ -8221,7 +8213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_Shouhan_MSK12C02"
+		(property "Footprint" "NeoSofle:SW_SPDT_MSK12C02_HandSolder"
 			(at 86.36 34.29 0)
 			(effects
 				(font
@@ -8292,7 +8284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 203.835 76.2 0)
 			(effects
 				(font
@@ -8344,7 +8336,7 @@
 			(uuid "50cc1d31-4da8-4452-90b6-b61cf7aaebb7")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D2")
 					(unit 1)
@@ -8381,7 +8373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 220.345 92.71 0)
 			(effects
 				(font
@@ -8433,7 +8425,7 @@
 			(uuid "403b6910-da56-4f4a-af47-a0bf2e9c870b")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D9")
 					(unit 1)
@@ -8500,7 +8492,7 @@
 			(uuid "3f8d54c1-11b1-4985-be2f-f116fd428017")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "#PWR07")
 					(unit 1)
@@ -8537,7 +8529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 187.325 148.59 0)
 			(effects
 				(font
@@ -8589,7 +8581,7 @@
 			(uuid "ead6bfc2-9b36-41ca-8f86-674ac0d085a3")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D25")
 					(unit 1)
@@ -8623,7 +8615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 210.82 132.08 0)
 			(effects
 				(font
@@ -8657,7 +8649,7 @@
 			(uuid "e2a8ba83-9bf7-465d-ad31-95e5d18e2641")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW27")
 					(unit 1)
@@ -8723,7 +8715,7 @@
 			(uuid "4e17a29e-957e-4dcb-bf55-bd722079d87e")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "#PWR05")
 					(unit 1)
@@ -8827,7 +8819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 243.84 82.55 0)
 			(effects
 				(font
@@ -8861,7 +8853,7 @@
 			(uuid "5a5098a0-2561-42bc-a747-2dfa5a432a14")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW11")
 					(unit 1)
@@ -8877,10 +8869,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ab780de8-0a4e-46b9-98e0-829ef8c0c559")
 		(property "Reference" "D14"
-			(at 201.93 107.9499 90)
+			(at 201.676 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +8889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 203.835 109.22 0)
 			(effects
 				(font
@@ -8950,7 +8941,7 @@
 			(uuid "ab95d16e-6b0b-434c-b169-cb6968469c4b")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D14")
 					(unit 1)
@@ -8966,10 +8957,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "afc38b4c-58bb-4833-897e-0bf7a88c2962")
 		(property "Reference" "D24"
-			(at 267.97 124.4599 90)
+			(at 267.716 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,7 +8977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 269.875 125.73 0)
 			(effects
 				(font
@@ -9039,7 +9029,7 @@
 			(uuid "89bcf11b-a12e-40e7-87a0-40fb31491edc")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D24")
 					(unit 1)
@@ -9057,7 +9047,7 @@
 		(dnp no)
 		(uuid "b390ee39-ef45-4bbb-b2e4-acdb8eff7f4a")
 		(property "Reference" "J2"
-			(at 55.118 25.146 0)
+			(at 53.34 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,13 +9055,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "JST_01x02_Pin"
+		(property "Value" "JST_ACH_BM02B-ACHSS-GAN-ETF_Pin"
 			(at 43.18 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9117,11 +9108,11 @@
 		)
 	)
 	(symbol
-		(lib_id "neosofle:nice_nano")
+		(lib_id "NeoSofle:nice_nano")
 		(at 58.42 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9142,7 +9133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "neosofle:nice_nano_Reversible"
+		(property "Footprint" "NeoSofle:Nice_Nano_V2"
 			(at 58.42 119.888 0)
 			(effects
 				(font
@@ -9323,7 +9314,7 @@
 			(uuid "74a17a95-2404-4564-a1da-83430a14e151")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "#PWR01")
 					(unit 1)
@@ -9390,7 +9381,7 @@
 			(uuid "2801e209-1532-4bc3-ac28-86819e04c76a")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "#PWR015")
 					(unit 1)
@@ -9427,7 +9418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 220.345 148.59 0)
 			(effects
 				(font
@@ -9479,7 +9470,7 @@
 			(uuid "ae98ffc4-15ab-45e9-95f4-252473418ccd")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D27")
 					(unit 1)
@@ -9513,7 +9504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 194.31 132.08 0)
 			(effects
 				(font
@@ -9547,7 +9538,7 @@
 			(uuid "2afe7c48-e0ae-4839-af9c-becdc587659c")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW26")
 					(unit 1)
@@ -9563,10 +9554,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b917312c-f3f4-425e-81ca-91c320e6910e")
 		(property "Reference" "D21"
-			(at 218.44 124.4599 90)
+			(at 218.186 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +9574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 220.345 125.73 0)
 			(effects
 				(font
@@ -9636,7 +9626,7 @@
 			(uuid "1443504f-62ba-4090-975b-118f3a9f4718")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D21")
 					(unit 1)
@@ -9738,7 +9728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 227.33 66.04 0)
 			(effects
 				(font
@@ -9772,7 +9762,7 @@
 			(uuid "b9247c30-d101-4062-a605-f3e9164ac0d6")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW4")
 					(unit 1)
@@ -9807,7 +9797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 227.33 115.57 0)
 			(effects
 				(font
@@ -9841,7 +9831,7 @@
 			(uuid "491bf4c2-f690-46f5-aaa6-5fcf03bf2e00")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW22")
 					(unit 1)
@@ -9875,7 +9865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 243.84 132.08 0)
 			(effects
 				(font
@@ -9909,7 +9899,7 @@
 			(uuid "f1a061b5-c3ad-4004-a4c3-4c988ca8f975")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW29")
 					(unit 1)
@@ -9946,7 +9936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 236.855 148.59 0)
 			(effects
 				(font
@@ -9998,7 +9988,7 @@
 			(uuid "0df256b5-ace4-48c3-9f88-bf6cdf54e33c")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D28")
 					(unit 1)
@@ -10033,7 +10023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -10067,7 +10057,7 @@
 			(uuid "30bfe17a-4d30-41cc-98ca-d75a3b312669")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW13")
 					(unit 1)
@@ -10102,7 +10092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 210.82 82.55 0)
 			(effects
 				(font
@@ -10136,7 +10126,7 @@
 			(uuid "83fd162f-9e5c-4c1b-b4bb-953e1e0ba68e")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW9")
 					(unit 1)
@@ -10171,7 +10161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 194.31 115.57 0)
 			(effects
 				(font
@@ -10205,7 +10195,7 @@
 			(uuid "1af84a05-67c5-457c-a499-2560e03804ed")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW20")
 					(unit 1)
@@ -10307,7 +10297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 260.35 66.04 0)
 			(effects
 				(font
@@ -10341,7 +10331,7 @@
 			(uuid "ec82e460-c452-47c8-a0d2-a30066f86fc5")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW6")
 					(unit 1)
@@ -10350,7 +10340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "neosofle:SK6812MINI-E")
+		(lib_id "NeoSofle:SK6812MINI-E")
 		(at 190.5 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10375,7 +10365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:LED_SK6812MINI-E"
+		(property "Footprint" "NeoSofle:LED_SK6812MINI-E"
 			(at 174.879 30.48 0)
 			(effects
 				(font
@@ -10426,7 +10416,7 @@
 		)
 	)
 	(symbol
-		(lib_id "neosofle:SK6812MINI-E")
+		(lib_id "NeoSofle:SK6812MINI-E")
 		(at 217.17 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10451,7 +10441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:LED_SK6812MINI-E"
+		(property "Footprint" "NeoSofle:LED_SK6812MINI-E"
 			(at 201.549 30.48 0)
 			(effects
 				(font
@@ -10530,7 +10520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 187.325 92.71 0)
 			(effects
 				(font
@@ -10582,7 +10572,7 @@
 			(uuid "2f328bf5-bbab-4575-be77-30e73b4cd9e8")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D7")
 					(unit 1)
@@ -10619,7 +10609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 203.835 148.59 0)
 			(effects
 				(font
@@ -10671,7 +10661,7 @@
 			(uuid "05dfb534-15d8-4075-b85c-5e8b1d9cce50")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D26")
 					(unit 1)
@@ -10708,7 +10698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 220.345 76.2 0)
 			(effects
 				(font
@@ -10760,7 +10750,7 @@
 			(uuid "ccb141b9-1a57-4fa7-9920-5287238291c8")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D3")
 					(unit 1)
@@ -10776,10 +10766,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e764b758-9506-4ff1-b492-70b934d4fac0")
 		(property "Reference" "D18"
-			(at 267.97 107.9499 90)
+			(at 267.716 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10797,7 +10786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 269.875 109.22 0)
 			(effects
 				(font
@@ -10849,7 +10838,7 @@
 			(uuid "597984df-f278-4ac2-b510-86efea5b5727")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D18")
 					(unit 1)
@@ -10886,7 +10875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:D_SOD-123F_HandSolder_Reversible"
+		(property "Footprint" "NeoSofle:D_SOD-123F_HandSolder"
 			(at 269.875 92.71 0)
 			(effects
 				(font
@@ -10938,7 +10927,7 @@
 			(uuid "913ebf98-1b0b-4149-9ced-3a53593ff6fc")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "D12")
 					(unit 1)
@@ -10973,7 +10962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 243.84 66.04 0)
 			(effects
 				(font
@@ -11007,7 +10996,7 @@
 			(uuid "132f5dfb-6056-461e-87fc-b21781ef7360")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW5")
 					(unit 1)
@@ -11042,7 +11031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:SW_Choc_V2_HS_CPG135001S30_1u_Reversible"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
 			(at 194.31 66.04 0)
 			(effects
 				(font
@@ -11076,7 +11065,7 @@
 			(uuid "3dda260f-a69d-49fd-b070-41ed70c88e73")
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(reference "SW2")
 					(unit 1)
@@ -11094,22 +11083,23 @@
 		(dnp no)
 		(uuid "fd3083ea-ab99-4188-8222-ca090ddfe726")
 		(property "Reference" "J1"
-			(at 61.976 25.146 0)
+			(at 63.5 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "JST_01x02_Socket"
+		(property "Value" "JST_ACH_BM02B-ACHSS-GAN-ETF_Socket"
 			(at 69.596 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom_Keyboard:JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical_Reversible"
+		(property "Footprint" "NeoSofle:JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical_HandSolder_Reversible"
 			(at 60.96 34.29 0)
 			(effects
 				(font
@@ -11118,7 +11108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eACH.pdf"
 			(at 60.96 34.29 0)
 			(effects
 				(font

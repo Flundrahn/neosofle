@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "neosofle:SK6812MINI-E"
+		(property "Footprint" "NeoSofle:SK6812MINI-E"
 			(at 0 -15.621 0)
 			(effects
 				(font
@@ -275,7 +275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "neosofle:nice_nano_Reversible"
+		(property "Footprint" "NeoSofle:nice_nano_Reversible"
 			(at 0 -27.178 0)
 			(effects
 				(font
