@@ -23,3 +23,5 @@ rescue-backup/
 bom/
 ~NeoSofle.kicad_sch.lck
 pcb/#auto_saved_files#
+working-notes/
+pcb/~NeoSofle.kicad_pcb.lck

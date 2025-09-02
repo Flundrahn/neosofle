@@ -165,8 +165,8 @@
 		(uuid "57a8c81c-862c-4bba-ac2e-1091d2b09994")
 	)
 	(fp_rect
-		(start -4 -1.59)
-		(end 4 1.59)
+		(start -3.9 -1.59)
+		(end 3.9 1.59)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -363,13 +363,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/LED_SK6812MINI-E.step"
 		(offset
-			(xyz 0 0 -1.75)
+			(xyz 0 0 0.15)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -180 -0)
+			(xyz 90 -0 -0)
 		)
 	)
 )
