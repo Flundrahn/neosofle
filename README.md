@@ -14,6 +14,12 @@ TODO: Add readme based on Sofle V2.
 - Guide to ZMK firmware?
 - Guide to others?
 
+## 3D Models
+
+Most of the used footprints have linked 3D models to aid in visualization and case design, either from the default KiCad libraries or from marbastlib. To use them ensure you have the relevant library installed using standard paths.
+
+They have not been checked for accuracy.
+
 # License
 
 This project is licensed under the CERN Open Hardware License v2 - Strongly Reciprocal (CERN-OHL-S).

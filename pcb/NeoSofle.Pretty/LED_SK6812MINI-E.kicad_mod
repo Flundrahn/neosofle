@@ -361,15 +361,15 @@
 		(uuid "d38d7b70-b1f2-4982-b635-ed9574b17057")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/LED_SK6812MINI-E.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_SK6812MINI-E.step"
 		(offset
-			(xyz 0 0 0.15)
+			(xyz 0 5.08 -1.76)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 -0)
+			(xyz -0 -180 -0)
 		)
 	)
 )
