@@ -9504,7 +9504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u"
+		(property "Footprint" "NeoSofle:SW_Choc_V2_HS_CPG135001S30_1u1.5u_Hybrid"
 			(at 194.31 132.08 0)
 			(effects
 				(font
