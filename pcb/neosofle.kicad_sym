@@ -275,7 +275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NeoSofle:nice_nano_Reversible"
+		(property "Footprint" "NeoSofle:Nice_Nano_V2"
 			(at 0 -27.178 0)
 			(effects
 				(font
@@ -303,7 +303,7 @@
 			)
 		)
 		(symbol "nice_nano_1_0"
-			(pin input line
+			(pin power_in line
 				(at -22.86 24.13 0)
 				(length 5.08)
 				(name "GND"
@@ -357,7 +357,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -22.86 12.7 0)
 				(length 5.08)
 				(name "GND"
@@ -375,7 +375,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -22.86 8.89 0)
 				(length 5.08)
 				(name "GND"
@@ -627,7 +627,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 22.86 16.51 180)
 				(length 5.08)
 				(name "GND"
