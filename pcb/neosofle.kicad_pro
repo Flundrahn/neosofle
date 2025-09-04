@@ -52,7 +52,20 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|135289422|185351799|78ed32f8-c296-413d-a87d-3bb640876a77|ef573f70-7626-43c3-b765-de3b54be7138",
+          "Intentional union of holes."
+        ],
+        [
+          "hole_clearance|148092612|184850974|f3739a2f-0b23-4358-a7a9-fe4c45c4cecb|37085a27-cf4a-4616-a9e2-381e9ded3968",
+          "Intentional union of holes."
+        ],
+        [
+          "hole_to_hole|140725017|182931716|26f3f132-2674-4981-bb63-72436412d8a9|7efd37e6-5ca6-4c1d-9540-fa930e0bf0e0",
+          "Intentional union of holes."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -119,7 +132,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -127,7 +140,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.73,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
@@ -453,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "NeoSofle.kicad_pro",
+    "filename": "neosofle.kicad_pro",
     "version": 3
   },
   "net_settings": {
