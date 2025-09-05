@@ -5078,7 +5078,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "RSW301")
+					(reference "RSW3001")
 					(unit 1)
 				)
 			)
@@ -5170,7 +5170,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D319")
+					(reference "D3019")
 					(unit 1)
 				)
 			)
@@ -5263,7 +5263,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D310")
+					(reference "D3010")
 					(unit 1)
 				)
 			)
@@ -5334,7 +5334,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#PWR0308")
+					(reference "#PWR03008")
 					(unit 1)
 				)
 			)
@@ -5415,7 +5415,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "LED301")
+					(reference "LED3001")
 					(unit 1)
 				)
 			)
@@ -5487,7 +5487,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW330")
+					(reference "SW3030")
 					(unit 1)
 				)
 			)
@@ -5580,7 +5580,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D301")
+					(reference "D3001")
 					(unit 1)
 				)
 			)
@@ -5653,7 +5653,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW321")
+					(reference "SW3021")
 					(unit 1)
 				)
 			)
@@ -5726,7 +5726,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW308")
+					(reference "SW3008")
 					(unit 1)
 				)
 			)
@@ -5799,7 +5799,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW315")
+					(reference "SW3015")
 					(unit 1)
 				)
 			)
@@ -5869,7 +5869,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#PWR0302")
+					(reference "#PWR03002")
 					(unit 1)
 				)
 			)
@@ -5962,7 +5962,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D306")
+					(reference "D3006")
 					(unit 1)
 				)
 			)
@@ -6032,7 +6032,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#PWR0307")
+					(reference "#PWR03007")
 					(unit 1)
 				)
 			)
@@ -6102,7 +6102,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#FLG0302")
+					(reference "#FLG03002")
 					(unit 1)
 				)
 			)
@@ -6175,7 +6175,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW323")
+					(reference "SW3023")
 					(unit 1)
 				)
 			)
@@ -6248,7 +6248,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW312")
+					(reference "SW3012")
 					(unit 1)
 				)
 			)
@@ -6341,7 +6341,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D330")
+					(reference "D3030")
 					(unit 1)
 				)
 			)
@@ -6434,7 +6434,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D329")
+					(reference "D3029")
 					(unit 1)
 				)
 			)
@@ -6507,7 +6507,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW301")
+					(reference "SW3001")
 					(unit 1)
 				)
 			)
@@ -6578,7 +6578,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#PWR0305")
+					(reference "#PWR03005")
 					(unit 1)
 				)
 			)
@@ -6670,7 +6670,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D313")
+					(reference "D3013")
 					(unit 1)
 				)
 			)
@@ -6743,7 +6743,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW307")
+					(reference "SW3007")
 					(unit 1)
 				)
 			)
@@ -6816,7 +6816,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW318")
+					(reference "SW3018")
 					(unit 1)
 				)
 			)
@@ -6908,7 +6908,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D323")
+					(reference "D3023")
 					(unit 1)
 				)
 			)
@@ -6981,7 +6981,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW314")
+					(reference "SW3014")
 					(unit 1)
 				)
 			)
@@ -7054,7 +7054,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW303")
+					(reference "SW3003")
 					(unit 1)
 				)
 			)
@@ -7127,7 +7127,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW310")
+					(reference "SW3010")
 					(unit 1)
 				)
 			)
@@ -7220,7 +7220,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D311")
+					(reference "D3011")
 					(unit 1)
 				)
 			)
@@ -7300,7 +7300,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW325")
+					(reference "SW3025")
 					(unit 1)
 				)
 			)
@@ -7373,7 +7373,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW317")
+					(reference "SW3017")
 					(unit 1)
 				)
 			)
@@ -7466,7 +7466,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D305")
+					(reference "D3005")
 					(unit 1)
 				)
 			)
@@ -7558,7 +7558,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D320")
+					(reference "D3020")
 					(unit 1)
 				)
 			)
@@ -7631,7 +7631,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW324")
+					(reference "SW3024")
 					(unit 1)
 				)
 			)
@@ -7724,7 +7724,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D304")
+					(reference "D3004")
 					(unit 1)
 				)
 			)
@@ -7794,7 +7794,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#PWR0306")
+					(reference "#PWR03006")
 					(unit 1)
 				)
 			)
@@ -7867,7 +7867,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW319")
+					(reference "SW3019")
 					(unit 1)
 				)
 			)
@@ -7959,7 +7959,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D315")
+					(reference "D3015")
 					(unit 1)
 				)
 			)
@@ -8051,7 +8051,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D322")
+					(reference "D3022")
 					(unit 1)
 				)
 			)
@@ -8124,7 +8124,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW316")
+					(reference "SW3016")
 					(unit 1)
 				)
 			)
@@ -8216,7 +8216,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D316")
+					(reference "D3016")
 					(unit 1)
 				)
 			)
@@ -8288,7 +8288,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW328")
+					(reference "SW3028")
 					(unit 1)
 				)
 			)
@@ -8380,7 +8380,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D317")
+					(reference "D3017")
 					(unit 1)
 				)
 			)
@@ -8473,7 +8473,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D308")
+					(reference "D3008")
 					(unit 1)
 				)
 			)
@@ -8544,7 +8544,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "PSW301")
+					(reference "PSW3001")
 					(unit 1)
 				)
 			)
@@ -8637,7 +8637,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D302")
+					(reference "D3002")
 					(unit 1)
 				)
 			)
@@ -8730,7 +8730,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D309")
+					(reference "D3009")
 					(unit 1)
 				)
 			)
@@ -8801,7 +8801,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#PWR0303")
+					(reference "#PWR03003")
 					(unit 1)
 				)
 			)
@@ -8894,7 +8894,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D325")
+					(reference "D3025")
 					(unit 1)
 				)
 			)
@@ -8966,7 +8966,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW327")
+					(reference "SW3027")
 					(unit 1)
 				)
 			)
@@ -9039,7 +9039,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "BT301")
+					(reference "BT3001")
 					(unit 1)
 				)
 			)
@@ -9112,7 +9112,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW311")
+					(reference "SW3011")
 					(unit 1)
 				)
 			)
@@ -9204,7 +9204,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D314")
+					(reference "D3014")
 					(unit 1)
 				)
 			)
@@ -9274,7 +9274,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#FLG0301")
+					(reference "#FLG03001")
 					(unit 1)
 				)
 			)
@@ -9366,7 +9366,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D324")
+					(reference "D3024")
 					(unit 1)
 				)
 			)
@@ -9440,7 +9440,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "J302")
+					(reference "J3002")
 					(unit 1)
 				)
 			)
@@ -9593,7 +9593,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "U301")
+					(reference "U3001")
 					(unit 1)
 				)
 			)
@@ -9663,7 +9663,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#PWR0304")
+					(reference "#PWR03004")
 					(unit 1)
 				)
 			)
@@ -9756,7 +9756,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D327")
+					(reference "D3027")
 					(unit 1)
 				)
 			)
@@ -9828,7 +9828,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW326")
+					(reference "SW3026")
 					(unit 1)
 				)
 			)
@@ -9920,7 +9920,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D321")
+					(reference "D3021")
 					(unit 1)
 				)
 			)
@@ -9993,7 +9993,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW304")
+					(reference "SW3004")
 					(unit 1)
 				)
 			)
@@ -10066,7 +10066,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW322")
+					(reference "SW3022")
 					(unit 1)
 				)
 			)
@@ -10138,7 +10138,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW329")
+					(reference "SW3029")
 					(unit 1)
 				)
 			)
@@ -10231,7 +10231,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D328")
+					(reference "D3028")
 					(unit 1)
 				)
 			)
@@ -10304,7 +10304,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW313")
+					(reference "SW3013")
 					(unit 1)
 				)
 			)
@@ -10374,7 +10374,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#PWR0301")
+					(reference "#PWR03001")
 					(unit 1)
 				)
 			)
@@ -10447,7 +10447,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW309")
+					(reference "SW3009")
 					(unit 1)
 				)
 			)
@@ -10520,7 +10520,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW320")
+					(reference "SW3020")
 					(unit 1)
 				)
 			)
@@ -10591,7 +10591,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "#PWR0309")
+					(reference "#PWR03009")
 					(unit 1)
 				)
 			)
@@ -10664,7 +10664,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW306")
+					(reference "SW3006")
 					(unit 1)
 				)
 			)
@@ -10744,7 +10744,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "LED302")
+					(reference "LED3002")
 					(unit 1)
 				)
 			)
@@ -10824,7 +10824,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "LED303")
+					(reference "LED3003")
 					(unit 1)
 				)
 			)
@@ -10917,7 +10917,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D307")
+					(reference "D3007")
 					(unit 1)
 				)
 			)
@@ -11010,7 +11010,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D326")
+					(reference "D3026")
 					(unit 1)
 				)
 			)
@@ -11103,7 +11103,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D303")
+					(reference "D3003")
 					(unit 1)
 				)
 			)
@@ -11195,7 +11195,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D318")
+					(reference "D3018")
 					(unit 1)
 				)
 			)
@@ -11288,7 +11288,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D312")
+					(reference "D3012")
 					(unit 1)
 				)
 			)
@@ -11361,7 +11361,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW305")
+					(reference "SW3005")
 					(unit 1)
 				)
 			)
@@ -11434,7 +11434,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW302")
+					(reference "SW3002")
 					(unit 1)
 				)
 			)
@@ -11506,7 +11506,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "J301")
+					(reference "J3001")
 					(unit 1)
 				)
 			)
