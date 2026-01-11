@@ -619,7 +619,7 @@
 		)
 	)
 	(fp_text user "19.00x19.00"
-		(at 0 -10.16 180)
+		(at 0 -10.16 0)
 		(layer "Eco1.User")
 		(uuid "11dfa86c-f778-4252-b39d-31cd574b92e3")
 		(effects
@@ -631,7 +631,7 @@
 		)
 	)
 	(fp_text user "18.30x18.30"
-		(at 0 -8.382 180)
+		(at 0 -8.382 0)
 		(layer "Eco2.User")
 		(uuid "bbd74691-537a-47c3-a9b7-7f60a53ce612")
 		(effects

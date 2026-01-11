@@ -45,7 +45,7 @@
 			)
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(page "2")
 				)
@@ -87,7 +87,7 @@
 			)
 		)
 		(instances
-			(project "neosofle"
+			(project "NeoSofle"
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52"
 					(page "3")
 				)

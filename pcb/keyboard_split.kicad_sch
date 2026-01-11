@@ -3003,12 +3003,6 @@
 		(uuid "ba088774-f5a8-4fd7-ac39-2c46c62b8603")
 	)
 	(junction
-		(at 172.72 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb81a9aa-6fc2-44a8-a368-47924a9c44af")
-	)
-	(junction
 		(at 199.39 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3025,6 +3019,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c42289f7-95cf-49af-be53-e10bb934a9f1")
+	)
+	(junction
+		(at 172.72 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6d74ca6-21ea-4f60-a7c3-8ffcac1af37b")
 	)
 	(junction
 		(at 172.72 91.44)
@@ -3401,16 +3401,6 @@
 			(type default)
 		)
 		(uuid "1ea3266d-e5bb-4a9b-ad96-686aa43fe5a7")
-	)
-	(wire
-		(pts
-			(xy 173.99 124.46) (xy 172.72 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21772d74-5692-48c1-908f-0961291ae51a")
 	)
 	(wire
 		(pts
@@ -4144,6 +4134,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 124.46) (xy 172.72 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbec83e-6c9a-4aaa-9c04-e723e264fd03")
+	)
+	(wire
+		(pts
 			(xy 43.18 31.75) (xy 43.18 33.02)
 		)
 		(stroke
@@ -4451,16 +4451,6 @@
 			(type default)
 		)
 		(uuid "e1ea8ad8-1a15-4513-ac77-2b4ac3dde9da")
-	)
-	(wire
-		(pts
-			(xy 172.72 124.46) (xy 172.72 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e28109e3-c2f7-4ed6-8a84-a08d01c775e4")
 	)
 	(wire
 		(pts
@@ -5078,7 +5068,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "RSW3001")
+					(reference "RSW1001")
 					(unit 1)
 				)
 			)
@@ -5094,7 +5084,7 @@
 		(dnp no)
 		(uuid "0b711516-4516-4383-894b-cd90e4f589f2")
 		(property "Reference" "D19"
-			(at 185.166 128.27 90)
+			(at 174.752 129.5401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5160,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3019")
+					(reference "D1019")
 					(unit 1)
 				)
 			)
@@ -5184,10 +5174,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e672d15-1e5a-41a7-af93-94bccc55d9a7")
 		(property "Reference" "D10"
-			(at 234.95 95.2499 90)
+			(at 224.536 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5252,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3010")
+					(reference "D1010")
 					(unit 1)
 				)
 			)
@@ -5415,7 +5404,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "LED3001")
+					(reference "LED1001")
 					(unit 1)
 				)
 			)
@@ -5487,7 +5476,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3030")
+					(reference "SW1030")
 					(unit 1)
 				)
 			)
@@ -5501,10 +5490,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18b3df4d-b372-45f8-b021-3f7a6824e0d5")
 		(property "Reference" "D1"
-			(at 185.42 78.7399 90)
+			(at 175.006 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,7 +5568,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3001")
+					(reference "D1001")
 					(unit 1)
 				)
 			)
@@ -5653,7 +5641,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3021")
+					(reference "SW1021")
 					(unit 1)
 				)
 			)
@@ -5726,7 +5714,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3008")
+					(reference "SW1008")
 					(unit 1)
 				)
 			)
@@ -5799,7 +5787,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3015")
+					(reference "SW1015")
 					(unit 1)
 				)
 			)
@@ -5883,10 +5871,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2b3691f4-9e43-4245-b7fa-939a91c0b276")
 		(property "Reference" "D6"
-			(at 267.97 78.7399 90)
+			(at 257.556 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +5949,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3006")
+					(reference "D1006")
 					(unit 1)
 				)
 			)
@@ -6175,7 +6162,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3023")
+					(reference "SW1023")
 					(unit 1)
 				)
 			)
@@ -6248,7 +6235,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3012")
+					(reference "SW1012")
 					(unit 1)
 				)
 			)
@@ -6262,10 +6249,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3aa28373-30dc-4d70-b3e4-3ab861edde54")
 		(property "Reference" "D30"
-			(at 267.97 151.1299 90)
+			(at 257.556 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6327,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3030")
+					(reference "D1030")
 					(unit 1)
 				)
 			)
@@ -6355,10 +6341,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3dc3cb2a-02aa-4d11-988a-d847389abab2")
 		(property "Reference" "D29"
-			(at 251.46 151.1299 90)
+			(at 241.046 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +6419,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3029")
+					(reference "D1029")
 					(unit 1)
 				)
 			)
@@ -6507,7 +6492,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3001")
+					(reference "SW1001")
 					(unit 1)
 				)
 			)
@@ -6594,7 +6579,7 @@
 		(dnp no)
 		(uuid "43f4c61a-bf70-47a7-9a59-7bd50361f442")
 		(property "Reference" "D13"
-			(at 185.166 111.76 90)
+			(at 174.752 113.0301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6655,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3013")
+					(reference "D1013")
 					(unit 1)
 				)
 			)
@@ -6743,7 +6728,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3007")
+					(reference "SW1007")
 					(unit 1)
 				)
 			)
@@ -6816,7 +6801,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3018")
+					(reference "SW1018")
 					(unit 1)
 				)
 			)
@@ -6832,7 +6817,7 @@
 		(dnp no)
 		(uuid "5369c44b-c201-4a98-b222-4800f8fd2279")
 		(property "Reference" "D23"
-			(at 251.206 128.27 90)
+			(at 240.792 129.5401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,7 +6893,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3023")
+					(reference "D1023")
 					(unit 1)
 				)
 			)
@@ -6981,7 +6966,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3014")
+					(reference "SW1014")
 					(unit 1)
 				)
 			)
@@ -7054,7 +7039,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3003")
+					(reference "SW1003")
 					(unit 1)
 				)
 			)
@@ -7127,7 +7112,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3010")
+					(reference "SW1010")
 					(unit 1)
 				)
 			)
@@ -7141,10 +7126,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56b4cd97-696b-44e2-abc6-3967f540baf1")
 		(property "Reference" "D11"
-			(at 251.46 95.2499 90)
+			(at 241.046 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7204,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3011")
+					(reference "D1011")
 					(unit 1)
 				)
 			)
@@ -7300,7 +7284,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3025")
+					(reference "SW1025")
 					(unit 1)
 				)
 			)
@@ -7373,7 +7357,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3017")
+					(reference "SW1017")
 					(unit 1)
 				)
 			)
@@ -7387,10 +7371,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5f9cb0e3-350f-4ed3-addf-8ff1d0bdf50d")
 		(property "Reference" "D5"
-			(at 251.46 78.7399 90)
+			(at 241.046 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +7449,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3005")
+					(reference "D1005")
 					(unit 1)
 				)
 			)
@@ -7482,7 +7465,7 @@
 		(dnp no)
 		(uuid "5fdfdaf4-5d92-469b-8899-ce8b2889c2bf")
 		(property "Reference" "D20"
-			(at 201.676 128.27 90)
+			(at 191.262 129.5401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +7541,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3020")
+					(reference "D1020")
 					(unit 1)
 				)
 			)
@@ -7631,7 +7614,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3024")
+					(reference "SW1024")
 					(unit 1)
 				)
 			)
@@ -7645,10 +7628,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "646bd796-3b1c-41b1-a807-3da638cd489f")
 		(property "Reference" "D4"
-			(at 234.95 78.7399 90)
+			(at 224.536 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,7 +7706,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3004")
+					(reference "D1004")
 					(unit 1)
 				)
 			)
@@ -7867,7 +7849,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3019")
+					(reference "SW1019")
 					(unit 1)
 				)
 			)
@@ -7883,7 +7865,7 @@
 		(dnp no)
 		(uuid "6bb02d7a-fd3a-4335-94c7-3b4da3d5a6b4")
 		(property "Reference" "D15"
-			(at 218.186 111.76 90)
+			(at 207.772 113.0301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +7941,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3015")
+					(reference "D1015")
 					(unit 1)
 				)
 			)
@@ -7975,7 +7957,7 @@
 		(dnp no)
 		(uuid "6bdcf441-987a-419b-9f56-efb950d0c150")
 		(property "Reference" "D22"
-			(at 234.696 128.27 90)
+			(at 224.282 129.5401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +8033,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3022")
+					(reference "D1022")
 					(unit 1)
 				)
 			)
@@ -8124,7 +8106,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3016")
+					(reference "SW1016")
 					(unit 1)
 				)
 			)
@@ -8140,7 +8122,7 @@
 		(dnp no)
 		(uuid "729a0370-678d-4367-9265-f58bc12abbb4")
 		(property "Reference" "D16"
-			(at 234.696 111.76 90)
+			(at 224.282 113.0301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8198,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3016")
+					(reference "D1016")
 					(unit 1)
 				)
 			)
@@ -8288,7 +8270,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3028")
+					(reference "SW1028")
 					(unit 1)
 				)
 			)
@@ -8304,7 +8286,7 @@
 		(dnp no)
 		(uuid "798270e6-b54e-46b2-89f2-a00dcf50f4d5")
 		(property "Reference" "D17"
-			(at 251.206 111.76 90)
+			(at 240.792 113.0301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +8362,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3017")
+					(reference "D1017")
 					(unit 1)
 				)
 			)
@@ -8394,10 +8376,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d55d493-6aa2-44ef-82bc-08188fd952e1")
 		(property "Reference" "D8"
-			(at 201.93 95.2499 90)
+			(at 191.516 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +8454,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3008")
+					(reference "D1008")
 					(unit 1)
 				)
 			)
@@ -8544,7 +8525,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "PSW3001")
+					(reference "PSW1001")
 					(unit 1)
 				)
 			)
@@ -8558,10 +8539,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7dad1c1c-c983-419f-a31a-f719ef6d99d7")
 		(property "Reference" "D2"
-			(at 201.93 78.7399 90)
+			(at 191.516 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +8617,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3002")
+					(reference "D1002")
 					(unit 1)
 				)
 			)
@@ -8651,10 +8631,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86d0453a-b177-49a3-b16b-7c6481f050a2")
 		(property "Reference" "D9"
-			(at 218.44 95.2499 90)
+			(at 208.026 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8730,7 +8709,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3009")
+					(reference "D1009")
 					(unit 1)
 				)
 			)
@@ -8815,10 +8794,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "978d6a09-f5f0-4768-a104-c870db92abc7")
 		(property "Reference" "D25"
-			(at 185.42 151.1299 90)
+			(at 175.006 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,7 +8872,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3025")
+					(reference "D1025")
 					(unit 1)
 				)
 			)
@@ -8966,7 +8944,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3027")
+					(reference "SW1027")
 					(unit 1)
 				)
 			)
@@ -8982,7 +8960,7 @@
 		(dnp no)
 		(uuid "a2a513be-a345-4cf8-bb5e-932154f77ffb")
 		(property "Reference" "BT1"
-			(at 26.543 35.687 0)
+			(at 25.4 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8991,7 +8969,7 @@
 			)
 		)
 		(property "Value" "3.7V"
-			(at 26.543 38.227 0)
+			(at 25.4 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +9017,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "BT3001")
+					(reference "BT1001")
 					(unit 1)
 				)
 			)
@@ -9112,7 +9090,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3011")
+					(reference "SW1011")
 					(unit 1)
 				)
 			)
@@ -9128,7 +9106,7 @@
 		(dnp no)
 		(uuid "ab780de8-0a4e-46b9-98e0-829ef8c0c559")
 		(property "Reference" "D14"
-			(at 201.676 111.76 90)
+			(at 191.262 113.0301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +9182,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3014")
+					(reference "D1014")
 					(unit 1)
 				)
 			)
@@ -9366,7 +9344,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3024")
+					(reference "D1024")
 					(unit 1)
 				)
 			)
@@ -9440,7 +9418,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "J3002")
+					(reference "J1002")
 					(unit 1)
 				)
 			)
@@ -9593,7 +9571,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "U3001")
+					(reference "U1001")
 					(unit 1)
 				)
 			)
@@ -9677,10 +9655,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b7306440-541f-4a56-878e-9d34a3888bc9")
 		(property "Reference" "D27"
-			(at 218.44 151.1299 90)
+			(at 208.026 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9733,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3027")
+					(reference "D1027")
 					(unit 1)
 				)
 			)
@@ -9828,7 +9805,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3026")
+					(reference "SW1026")
 					(unit 1)
 				)
 			)
@@ -9844,7 +9821,7 @@
 		(dnp no)
 		(uuid "b917312c-f3f4-425e-81ca-91c320e6910e")
 		(property "Reference" "D21"
-			(at 218.186 128.27 90)
+			(at 207.772 129.5401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9920,7 +9897,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3021")
+					(reference "D1021")
 					(unit 1)
 				)
 			)
@@ -9993,7 +9970,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3004")
+					(reference "SW1004")
 					(unit 1)
 				)
 			)
@@ -10066,7 +10043,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3022")
+					(reference "SW1022")
 					(unit 1)
 				)
 			)
@@ -10138,7 +10115,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3029")
+					(reference "SW1029")
 					(unit 1)
 				)
 			)
@@ -10152,10 +10129,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cbba92e7-d51c-4c95-a70c-e959ca40b242")
 		(property "Reference" "D28"
-			(at 234.95 151.1299 90)
+			(at 224.536 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,7 +10207,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3028")
+					(reference "D1028")
 					(unit 1)
 				)
 			)
@@ -10304,7 +10280,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3013")
+					(reference "SW1013")
 					(unit 1)
 				)
 			)
@@ -10447,7 +10423,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3009")
+					(reference "SW1009")
 					(unit 1)
 				)
 			)
@@ -10520,7 +10496,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3020")
+					(reference "SW1020")
 					(unit 1)
 				)
 			)
@@ -10664,7 +10640,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3006")
+					(reference "SW1006")
 					(unit 1)
 				)
 			)
@@ -10744,7 +10720,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "LED3002")
+					(reference "LED1002")
 					(unit 1)
 				)
 			)
@@ -10824,7 +10800,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "LED3003")
+					(reference "LED1003")
 					(unit 1)
 				)
 			)
@@ -10838,10 +10814,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "de1d88f6-e979-4799-90f3-5181792b750f")
 		(property "Reference" "D7"
-			(at 185.42 95.2499 90)
+			(at 175.006 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +10892,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3007")
+					(reference "D1007")
 					(unit 1)
 				)
 			)
@@ -10931,10 +10906,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df809929-523e-4a9b-8238-db3333e1ee9c")
 		(property "Reference" "D26"
-			(at 201.93 151.1299 90)
+			(at 191.516 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11010,7 +10984,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3026")
+					(reference "D1026")
 					(unit 1)
 				)
 			)
@@ -11024,10 +10998,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4d527cb-1d68-4441-b213-1b824847c028")
 		(property "Reference" "D3"
-			(at 218.44 78.7399 90)
+			(at 208.026 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11103,7 +11076,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3003")
+					(reference "D1003")
 					(unit 1)
 				)
 			)
@@ -11119,7 +11092,7 @@
 		(dnp no)
 		(uuid "e764b758-9506-4ff1-b492-70b934d4fac0")
 		(property "Reference" "D18"
-			(at 267.716 111.76 90)
+			(at 257.302 113.0301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,7 +11168,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3018")
+					(reference "D1018")
 					(unit 1)
 				)
 			)
@@ -11209,10 +11182,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f89eef5c-2ee1-48c2-97ea-da28567eea9a")
 		(property "Reference" "D12"
-			(at 267.97 95.2499 90)
+			(at 257.556 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,7 +11260,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "D3012")
+					(reference "D1012")
 					(unit 1)
 				)
 			)
@@ -11361,7 +11333,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3005")
+					(reference "SW1005")
 					(unit 1)
 				)
 			)
@@ -11434,7 +11406,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "SW3002")
+					(reference "SW1002")
 					(unit 1)
 				)
 			)
@@ -11506,7 +11478,7 @@
 					(unit 1)
 				)
 				(path "/5002d705-2405-443c-97ea-61e8626c5e52/cc7c56fa-e89c-4a60-b30f-f599b5dd39bc"
-					(reference "J3001")
+					(reference "J1001")
 					(unit 1)
 				)
 			)
