@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|133054795|186682409|38f00bb5-2ff1-482c-bf69-2f4b0e5467bc|cc4efca1-4250-4d8d-882a-f13b75f2c415",
+          "hole_clearance|132104877|187054528|38f00bb5-2ff1-482c-bf69-2f4b0e5467bc|cc4efca1-4250-4d8d-882a-f13b75f2c415",
           ""
         ],
         [
-          "hole_to_hole|138490390|184262326|6af36b4f-579f-4963-9b53-842234ecbad3|fe3db0f7-4dc0-4711-9e05-b5947914f0bf",
+          "hole_to_hole|137540472|184634445|6af36b4f-579f-4963-9b53-842234ecbad3|fe3db0f7-4dc0-4711-9e05-b5947914f0bf",
           ""
         ]
       ],
@@ -514,7 +514,7 @@
       "plot": "gerber",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "NeoSofle.step",
+      "step": "../cad/NeoSofle.step",
       "svg": "",
       "vrml": ""
     },
