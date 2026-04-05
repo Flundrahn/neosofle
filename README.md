@@ -3,6 +3,8 @@
 NeoSofle - the Not Entirely Ordinary Sofle keyboard aka the Nano Enhanced Overhaul Sofle keyboard.
 
 TODO: Add readme based on Sofle V2.
+TODO: Add distance between MCU and PCB top edge, make distance more similar to Sofle RGB.
+TODO: PCB mirror right split.
 
 # Features
 

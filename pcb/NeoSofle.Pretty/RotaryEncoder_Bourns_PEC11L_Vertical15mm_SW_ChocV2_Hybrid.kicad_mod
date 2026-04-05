@@ -1,10 +1,10 @@
-(footprint "RotaryEncoder_Bourns_PEC11L-Switch_Vertical15mm"
+(footprint "RotaryEncoder_Bourns_PEC11L_Vertical15mm_SW_ChocV2_Hybrid"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
-	(tags "rotary encoder")
+	(descr "Rotary encoder vertical with integrated push switch or alternatively Kailh Choc V2 switch, mutually exclusive, soldered only.")
+	(tags "rotary encoder switch")
 	(property "Reference" "REF**"
 		(at 2.8 -4.7 0)
 		(layer "F.SilkS")
@@ -85,7 +85,7 @@
 		(uuid "1316dd25-1186-48bb-a3e1-1d81c802ee31")
 	)
 	(fp_line
-		(start 1.4 -3.4)
+		(start 1.4 -1.5)
 		(end 1.4 8.4)
 		(stroke
 			(width 0.12)
@@ -96,7 +96,7 @@
 	)
 	(fp_line
 		(start 5.5 -3.4)
-		(end 1.4 -3.4)
+		(end 4 -3.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -113,26 +113,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "346a86a1-27c6-4070-961d-3c29923c90ed")
-	)
-	(fp_line
-		(start 7 2.5)
-		(end 8 2.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "cce2f411-0d22-423c-8469-56951e0ad821")
-	)
-	(fp_line
-		(start 7.5 2)
-		(end 7.5 3)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9608e049-7f11-464d-a72d-969d9208fa2d")
 	)
 	(fp_line
 		(start 9.5 -3.4)
@@ -153,16 +133,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "48f4c365-33de-431d-8e79-37217d5a2e49")
-	)
-	(fp_line
-		(start 13.6 1.2)
-		(end 13.6 3.8)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d5325dd6-9df8-480b-803d-c3a2f184c965")
 	)
 	(fp_line
 		(start 13.6 6)
@@ -374,6 +344,36 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at 2.35 -2.5 270)
+		(size 1 1)
+		(drill oval 1.5 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a8401d43-150b-46f5-b074-4c67e1a93e0d")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.5 2.5 270)
+		(size 5 5)
+		(drill 5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f55f3d5f-3551-4190-ba9d-91ebb8a83396")
+	)
+	(pad "1" thru_hole circle
+		(at 11.3 7.5 270)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "a2d4d49a-b915-4641-835c-15964704dfa8")
+	)
+	(pad "2" thru_hole circle
+		(at 13.4 2.5 270)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "ca553344-a502-4805-95b7-60da833f560f")
 	)
 	(pad "A" thru_hole rect
 		(at 0 0)
